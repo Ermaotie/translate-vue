@@ -58,7 +58,7 @@ export default {
            });
       var config = {
             method: 'post',
-            url: 'https://translate-server-lcg.herokuapp.com/',
+            url: 'api',
             data : data
           };
       if(this.origin){

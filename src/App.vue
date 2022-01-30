@@ -58,7 +58,7 @@ export default {
            });
       var config = {
             method: 'post',
-            url: 'http://localhost:8081/demo',
+            url: '/demo',
             data : data
           };
       if(this.origin){
